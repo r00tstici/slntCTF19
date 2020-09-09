@@ -1,0 +1,7 @@
+version: "3"
+services:
+  admin-console:
+    build: .
+    ports:
+      - "5001:80"
+    restart: unless-stopped

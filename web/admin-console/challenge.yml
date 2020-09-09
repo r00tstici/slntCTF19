@@ -1,0 +1,16 @@
+name: "Admin console"
+author: "0xThorn"
+category: Web
+description: |
+  My admin console is so secure. I bet you can't break it
+
+  Author: 0xThorn
+value: 100
+type: standard
+state: visible
+tags:
+  - web
+  - javascript
+flags:
+  - slntCTF{the_console_is_useful}
+image: .
