@@ -1,13 +1,5 @@
 version: "3"
 services:
-  # WEB
-
-  admin-console:
-    build: web/admin-console
-    ports:
-      - "5001:80"
-    restart: unless-stopped
-
   flags-database:
     build: .
     ports:

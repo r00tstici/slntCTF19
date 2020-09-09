@@ -1,0 +1,13 @@
+name: "Flags database"
+author: "0xThorn"
+category: Web
+description: |
+  I just started programming in php, but look at my new site: you can search for a state and get the colors of the flag
+
+  Author: 0xThorn
+value: 100
+type: standard
+state: visible
+flags:
+  - slntCTF{the_input_must_be_sanitized}
+image: .

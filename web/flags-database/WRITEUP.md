@@ -1,0 +1,3 @@
+The site is called "flags database", probabily the winning flag is in it.
+Testing some common strings (admin, root, flag) doesn't get any result but by inserting the character `'` the site returns an error. It is vulnerable to SQL injection!
+It turns out that by using the easiest payload (`' OR 1=1; -- `) the site returns all the records in the table, including the flag `slntCTF{the_input_must_be_sanitized}`
