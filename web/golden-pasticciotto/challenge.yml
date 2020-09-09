@@ -1,0 +1,13 @@
+name: "Golden pasticciotto"
+author: "drw0if"
+category: Web
+description: |
+  Bronze, silver or golden? Buy your pasticciotto!
+
+  Author: drw0if
+value: 200
+type: standard
+state: visible
+flags:
+  - slntCTF{g0ld3n_pa2t1cc10tt0_sh1t_s3cur1ty}
+image: .

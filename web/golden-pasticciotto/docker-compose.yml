@@ -1,0 +1,7 @@
+version: "3"
+services:
+  golden-pasticciotto:
+    build: .
+    ports:
+      - "5003:80"
+    restart: unless-stopped
