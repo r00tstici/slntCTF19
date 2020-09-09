@@ -1,0 +1,12 @@
+name: "Rock n roll train"
+author: "StaccahStaccah"
+category: Crypto
+description: |
+  Why does that train have three rails? It's not a normal train, it's a ROCK N ROLL TRAIN! `sCA_kltT{CCRcsnFDo}`
+
+  Author: StaccahStaccah
+value: 200
+type: standard
+state: visible
+flags:
+  - slntCTF{ACDC_Rocks}
