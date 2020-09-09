@@ -8,9 +8,6 @@ description: |
 value: 100
 type: standard
 state: visible
-tags:
-  - web
-  - javascript
 flags:
   - slntCTF{the_console_is_useful}
 image: .
