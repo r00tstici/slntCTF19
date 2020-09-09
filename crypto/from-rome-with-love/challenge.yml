@@ -1,0 +1,13 @@
+name: "From Rome with love"
+author: "StaccahStaccah"
+category: Crypto
+description: |
+  Dear centurion, the Roman emperor sent us this encrypted message: `qjlrARD{yjcy_gyary_cqr}`
+
+  Author: StaccahStaccah
+value: 100
+type: standard
+state: visible
+flags:
+  - slntCTF{alea_iacta_est}
+image: .
