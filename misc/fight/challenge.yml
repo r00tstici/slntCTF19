@@ -1,0 +1,36 @@
+name: "Fight!"
+author: "StaccahStaccah"
+category: Misc
+description: |
+  Get ready for the next (impossible) battle! Can you beat the boss?
+
+  Jump = Up
+
+  Crouch = Down
+
+  Left = Left
+
+  Right = Right
+
+  A = A
+
+  B = S
+
+  C = D
+
+  X = Z
+
+  Y = X
+
+  Z = C
+
+  Start = Enter
+
+  Author: StaccahStaccah
+value: 200
+type: standard
+state: visible
+flags:
+  - slntCTF{F1n1sh_H1m!}
+files:
+  - dist/fight.zip
