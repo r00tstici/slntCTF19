@@ -1,0 +1,14 @@
+name: "Meta"
+author: "StaccahStaccah"
+category: Forensics
+description: |
+  Ermal Meta has a secret, but does not hide it so well.
+
+  Author: StaccahStaccah
+value: 100
+type: standard
+state: visible
+flags:
+  - slntCTF{H3_l0v3s_M0r0}
+files:
+  - dist/Ermal_Meta.jpeg
