@@ -4,7 +4,7 @@ The challenges are configured for ctfcli (https://github.com/CTFd/ctfcli). It ca
 
 ## Installation
 
-### Add the challenge to CTFd
+### Add a challenge to CTFd
 
 ctfcli is useful to easily upload a challenge to CTFd.
 
