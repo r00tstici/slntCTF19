@@ -1,0 +1,14 @@
+name: "Strongbox"
+author: "StaccahStaccah"
+category: Forensics
+description: |
+  This strongbox is impregnable, change my mind.
+
+  Author: StaccahStaccah
+value: 200
+type: standard
+state: visible
+flags:
+  - slntCTF{d1d_you_3xp3ct_m0n3y?}
+files:
+  - dist/strongbox.png
