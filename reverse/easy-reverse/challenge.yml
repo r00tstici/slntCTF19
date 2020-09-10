@@ -1,0 +1,14 @@
+name: "Easy reverse"
+author: "drw0if"
+category: Reverse
+description: |
+  This script will check if the flag is real... I guess
+
+  Author: drw0if
+value: 100
+type: standard
+state: visible
+flags:
+  - slntCTF{3z_r3vers3_r1ghT?}
+files:
+  - dist/easy
