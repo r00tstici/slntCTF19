@@ -21,7 +21,7 @@ services:
     environment:
       MYSQL_ROOT_PASSWORD: fn983hbf3873
     volumes:
-      - ./src/db/:/docker-entrypoint-initdb.d
+      - web/flags-database/src/db/:/docker-entrypoint-initdb.d
 
   golden-pasticciotto:
     build: web/golden-pasticciotto
