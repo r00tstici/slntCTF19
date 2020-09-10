@@ -28,3 +28,9 @@ services:
     ports:
       - "5003:80"
     restart: unless-stopped
+
+  classroom-storage:
+    build: web/classroom-storage
+    ports:
+      - "5004:5000"
+    restart: unless-stopped
