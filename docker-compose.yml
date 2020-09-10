@@ -21,7 +21,7 @@ services:
     environment:
       MYSQL_ROOT_PASSWORD: fn983hbf3873
     volumes:
-      - web/flags-database/src/db/:/docker-entrypoint-initdb.d
+      - ./web/flags-database/src/db/:/docker-entrypoint-initdb.d
 
   golden-pasticciotto:
     build: web/golden-pasticciotto
@@ -35,8 +35,25 @@ services:
       - "5004:5000"
     restart: unless-stopped
 
+  flags-database-2:
+    build: web/flags-database-2
+    ports:
+      - "5006:80"
+    restart: unless-stopped
+    depends_on:
+      - flags-database-2-db
+  flags-database-2-db:
+    image: mysql:5
+    restart: unless-stopped
+    environment:
+      MYSQL_ROOT_PASSWORD: fn983hbf3873
+    volumes:
+      - ./web/flags-database-2/src/db/:/docker-entrypoint-initdb.d
+
+  # MISC
+
   u-cant-c-me:
-    build: .
+    build: misc/u-cant-c-me
     privileged: true
     ports:
       - "5005:9000"

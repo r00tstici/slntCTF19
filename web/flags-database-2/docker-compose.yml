@@ -1,0 +1,16 @@
+version: "3"
+services:
+  flags-database-2:
+    build: .
+    ports:
+      - "5006:80"
+    restart: unless-stopped
+    depends_on:
+      - flags-database-2-db
+  flags-database-2-db:
+    image: mysql:5
+    restart: unless-stopped
+    environment:
+      MYSQL_ROOT_PASSWORD: fn983hbf3873
+    volumes:
+      - ./src/db/:/docker-entrypoint-initdb.d
