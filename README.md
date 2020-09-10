@@ -4,6 +4,10 @@ The challenges are configured for ctfcli (https://github.com/CTFd/ctfcli). It ca
 
 ## Installation
 
+Some challenges expose online services, so you need to replace `[CHALLENGE_HOST]` in the descriptions with the host on which they run.
+
+For example to play locally `[CHALLENGE_HOST]` will be `localhost`.
+
 ### Add a challenge to CTFd
 
 ctfcli is useful to easily upload a challenge to CTFd.

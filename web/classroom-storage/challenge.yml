@@ -4,7 +4,7 @@ category: Web
 description: |
   Lecture notes are read directly from the corresponding directories. Just put the txt file in the right directory and it will be accessible from the web application.
 
-  http://[CHALLENGE_URL]:5004
+  http://[CHALLENGE_HOST]:5004
 
   Authors: droppo and UmbertoCorvaglia
 value: 200

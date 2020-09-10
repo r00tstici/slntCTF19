@@ -4,7 +4,7 @@
 
 Let's see if you can search for all the files
 
-nc [CHALLENGE_URL] 5005
+nc [CHALLENGE_HOST] 5005
 
 Author: StaccahStaccah
 
