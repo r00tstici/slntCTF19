@@ -34,3 +34,10 @@ services:
     ports:
       - "5004:5000"
     restart: unless-stopped
+
+  u-cant-c-me:
+    build: .
+    privileged: true
+    ports:
+      - "5005:9000"
+    restart: unless-stopped

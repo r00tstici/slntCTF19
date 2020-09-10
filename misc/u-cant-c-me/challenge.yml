@@ -1,0 +1,15 @@
+name: "U cant c me"
+author: "StaccahStaccah"
+category: Misc
+description: |
+  Let's see if you can search for all the files
+
+  nc [CHALLENGE_URL] 5005
+
+  Author: StaccahStaccah
+value: 100
+type: standard
+state: visible
+flags:
+  - slntCTF{j0hn_c3n4_paparapaaa_paparapaaa}
+image: .
