@@ -12,4 +12,5 @@ crypto/trinity/ = crypto/trinity/
 crypto/xorro/ = crypto/xorro/
 forensics/gift/ = forensics/gift/
 forensics/meta/ = forensics/meta/
+forensics/moonwalk/ = forensics/moonwalk/
 

@@ -1,0 +1,14 @@
+name: "Moonwalk"
+author: "StaccahStaccah"
+category: Forensics
+description: |
+  The detective I hired intercepted a secret communication, but instead of the report he sent me this image.
+
+  Author: StaccahStaccah
+value: 200
+type: standard
+state: visible
+flags:
+  - slntCTF{4nni3_4r3_u_0k?}
+files:
+  - dist/moonwalk.jpeg

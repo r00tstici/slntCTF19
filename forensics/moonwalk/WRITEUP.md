@@ -1,0 +1,2 @@
+Veiled in the name is a suggestion to use the `binwalk` command to find the zip file inside the image.
+Once extracted inside there is a `pcap` file, analyzing it with Wireshark we find the flag `slntCTF{4nni3_4r3_u_0k?}`.
