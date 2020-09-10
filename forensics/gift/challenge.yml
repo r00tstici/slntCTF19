@@ -1,0 +1,14 @@
+name: "Gift"
+author: "StaccahStaccah"
+category: Forensics
+description: |
+  Welcome to slntCTF, this is a gift for you.
+
+  Author: StaccahStaccah
+value: 100
+type: standard
+state: visible
+flags:
+  - slntCTF{y0u_4r3_w3lc0m3}
+files:
+  - dist/gift.zip
