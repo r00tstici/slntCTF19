@@ -1,0 +1,7 @@
+version: "3"
+services:
+  classroom-storage:
+    build: .
+    ports:
+      - "5004:5000"
+    restart: unless-stopped

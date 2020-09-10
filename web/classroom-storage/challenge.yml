@@ -1,0 +1,15 @@
+name: "Classroom storage"
+author: "droppo and UmbertoCorvaglia"
+category: Web
+description: |
+  Lecture notes are read directly from the corresponding directories. Just put the txt file in the right directory and it will be accessible from the web application.
+
+  http://[CHALLENGE_URL]:5004
+
+  Authors: droppo and UmbertoCorvaglia
+value: 200
+type: standard
+state: visible
+flags:
+  - slntCTF{f2zq9l8h3u}
+image: .

@@ -16,4 +16,5 @@ forensics/moonwalk/ = forensics/moonwalk/
 forensics/strongbox/ = forensics/strongbox/
 misc/fight/ = misc/fight/
 reverse/easy-reverse/ = reverse/easy-reverse/
+web/classroom-storage/ = web/classroom-storage/
 

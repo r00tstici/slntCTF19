@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+	<style type="text/css">
+		body {
+			height: 100%;
+		}
+		.centered {
+			margin: 0px auto;
+		}
+	</style>
+	<title>Lecture notes</title>
+</head>
+<body>
+	<div class="jumbotron">
+		<div class="container">
+			<h1 class="display-3">LECTURE NOTES</h1>
+			<p class="lead">A small collection of lecture notes</p>
+		</div>
+	</div>
+
+	<div class="container">
+		<div class="row">
+			<div class="col-3">
+				<div class="list-group">
+					<a href="/notes?path=lectures/SNP" class="list-group-item list-group-item-action" id="SNP">SNP</a>
+					<a href="/notes?path=lectures/Database" class="list-group-item list-group-item-action" id="Database">Database</a>
+					<a href="/notes?path=lectures/NetworkTechnologies" class="list-group-item list-group-item-action" id="NetworkTechnologies">Network Technologies</a>
+				</div>
+			</div>
+			<div class="col-9">
+				{% if text %}
+					<h4 class="display-4">{{ _filename }}</h4>
+					{% for p in text %}
+						<p class="lead">{{ p }}</p>
+					{% endfor %}
+				{% else %}
+					{% for e in _list %}
+						{% if _path_dir %}
+							<a href="{{ '/notes?path=lectures/' + _path_dir + '/' + e }}">{{ e }}</a> <br>
+						{% else %}
+							<a href="{{ '/notes?path=lectures/' + e }}">{{ e }}</a> <br>
+						{% endif %}
+					{% endfor %}
+				{% endif %}
+			</div>
+		</div>
+
+		<script>
+			console.log("{{ _path_dir }}")
+			e = document.getElementById("{{ _path_dir }}")
+			e.classList.add("active")
+		</script>
+
+	</div>
+
+</body>
+</html>
