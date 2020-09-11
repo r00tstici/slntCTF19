@@ -1,0 +1,8 @@
+version: "3"
+services:
+  stack0:
+    build: .
+    privileged: true
+    ports:
+      - "5007:9000"
+    restart: unless-stopped

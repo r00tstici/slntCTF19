@@ -58,3 +58,12 @@ services:
     ports:
       - "5005:9000"
     restart: unless-stopped
+
+  # PWN
+
+  stack0:
+    build: pwn/stack0
+    privileged: true
+    ports:
+      - "5007:9000"
+    restart: unless-stopped

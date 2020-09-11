@@ -1,0 +1,17 @@
+name: "Stack0"
+author: "drw0if"
+category: Pwn
+description: |
+  Have you ever heard about buffer?
+
+  nc [CHALLENGE_HOST] 5007
+
+  Author: drw0if
+value: 100
+type: standard
+state: visible
+flags:
+  - slntCTF{f1rst_pwn_s0lv3d}
+image: .
+files:
+  - dist/stack0
