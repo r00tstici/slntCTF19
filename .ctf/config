@@ -20,4 +20,5 @@ web/classroom-storage/ = web/classroom-storage/
 misc/u-cant-c-me/ = misc/u-cant-c-me/
 web/flags-database-2/ = web/flags-database-2/
 pwn/stack0/ = pwn/stack0/
+pwn/stack-jmp/ = pwn/stack-jmp/
 

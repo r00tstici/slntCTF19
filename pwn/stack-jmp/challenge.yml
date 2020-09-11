@@ -1,0 +1,17 @@
+name: "Stack Jmp"
+author: "drw0if"
+category: Pwn
+description: |
+  Let's see if you can do something with your input
+
+  nc [CHALLENGE_HOST] 5008
+
+  Author: drw0if
+value: 200
+type: standard
+state: visible
+flags:
+  - slntCTF{sh1t_sh311_c0d3}
+image: .
+files:
+  - dist/stackjmp

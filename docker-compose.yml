@@ -67,3 +67,10 @@ services:
     ports:
       - "5007:9000"
     restart: unless-stopped
+
+  stack-jmp:
+    build: .
+    privileged: true
+    ports:
+      - "5008:9000"
+    restart: unless-stopped
