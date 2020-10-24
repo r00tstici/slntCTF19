@@ -4,7 +4,7 @@
 
 Bronze, silver or golden? Buy your pasticciotto!
 
-http://[CHALLENGE_HOST]:5003
+http://localhost:5003
 
 Author: drw0if
 

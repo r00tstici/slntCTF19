@@ -1,25 +1,27 @@
 # slntCTF19
 
-The challenges are configured for ctfcli (https://github.com/CTFd/ctfcli). It can be installed with `pip3 install ctfcli`.
+This repository contains all the challenges from slntCTF19.
 
-## Installation
+In every challenge directory you can read the description in `README.md` and the write-up (the solution) in `WRITEUP.md`.
 
-Some challenges expose online services, so you need to replace `[CHALLENGE_HOST]` in the descriptions with the host on which they run.
+The files contained in the `src` directories were hidden from the perticipants while `dist` contains the files distributed publicly to play.
 
-For example to play locally `[CHALLENGE_HOST]` will be `localhost`.
+Some challenges require an hosted service, it can be done with docker as explained below.
 
-### Add a challenge to CTFd
+## Requirements
 
-ctfcli is useful to easily upload a challenge to CTFd.
+Some challenges (from pwn, web or misc categories) have a `docker-compose.yml` file in their directory, so they require `docker` and `docker-compose` to be executed.
 
-To do that you have to edit the `.ctf/config` file by adding the ctfd url after `url = ` and an admin access token after `access_token = `
+You can follow this guide to install docker: https://docs.docker.com/get-docker/
 
-After that you can add a challenge to the platform by going in a challenge directory and executing `ctf install .`
+After that you can install docker-compose: https://docs.docker.com/compose/install/
 
-### Execute all services
+## Run challenge
 
-The services use docker and docker-compose. To execute all services you can execute `docker-compose up` from the main directory
+If a challenge contains a `docker-compose.yml` file you must start the docker service.
 
-### Execute a single challenge
+Go in the challenge directory (`cd category_name/challenge_name`) and execute `docker-compose up`. After some seconds it will be up and running.
 
-If you want to execute a single challenge you can go to the challenge's directory and execute `docker-compose up`
+## Support
+
+If you need help you can write to r00tstici@gmail.com

@@ -4,7 +4,7 @@
 
 Have you ever heard about buffer?
 
-nc [CHALLENGE_HOST] 5007
+nc localhost 5007
 
 Author: drw0if
 

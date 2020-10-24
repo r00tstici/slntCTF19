@@ -4,7 +4,7 @@
 
 My admin console is so secure. I bet you can't break it
 
-http://[CHALLENGE_HOST]:5001
+http://localhost:5001
 
 Author: 0xThorn
 
